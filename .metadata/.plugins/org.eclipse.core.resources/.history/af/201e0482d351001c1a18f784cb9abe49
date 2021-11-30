@@ -17,13 +17,4 @@
     <servlet-name>Mensagem</servlet-name>
     <url-pattern>/Mensagem</url-pattern>
   </servlet-mapping>
-  <servlet>
-  	<description></description>
-    <servlet-name>HTMLServlet</servlet-name>
-    <servlet-class>servlet.HTMLServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>HTMLServlet</servlet-name>
-    <url-pattern>/HTML</url-pattern>
-  </servlet-mapping>
 </web-app>
