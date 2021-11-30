@@ -18,7 +18,7 @@
     <url-pattern>/Mensagem</url-pattern>
   </servlet-mapping>
   <servlet>
-    <description></description>
+  	<description></description>
     <servlet-name>HTMLServlet</servlet-name>
     <servlet-class>servlet.HTMLServlet</servlet-class>
   </servlet>
