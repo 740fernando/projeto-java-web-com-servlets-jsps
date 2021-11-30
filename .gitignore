@@ -4,3 +4,7 @@
 .classpath
 /target
 /bin/
+<<<<<<< HEAD
+=======
+src/main/java/phoenix2Business/util/Version.java
+>>>>>>> feature/servlet/annotation

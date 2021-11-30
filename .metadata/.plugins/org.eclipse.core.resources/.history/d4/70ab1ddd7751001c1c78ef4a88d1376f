@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <servlet>
+    	<servlet-name>Mensagem</servlet-name>
+    	<servlet-class>servlet.MensagemServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    	<servlet-name>Mensagem</servlet-name>
+    	<url-pattern>/Mensagem/</url-pattern>
+    </servlet-mapping>
+</web-app>  

@@ -1,4 +1,7 @@
 activeuserprofiles=SAO-FGM7P63;Team
 eclipse.preferences.version=1
+<<<<<<< HEAD
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=fsouviei
+=======
+>>>>>>> feature/servlet/annotation
 useridperkey=SAO-FGM7P63.Local\=fsouviei;
