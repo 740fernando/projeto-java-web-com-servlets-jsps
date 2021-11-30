@@ -27,22 +27,18 @@
     <url-pattern>/HTML</url-pattern>
   </servlet-mapping>
   <servlet>
-    <description></description>
-    <display-name>AutoInit1Servlet</display-name>
-    <servlet-name>AutoInit1Servlet</servlet-name>
-    <servlet-class>servlet.AutoInit1Servlet</servlet-class>
-    <init-param>
-      <description></description>
-      <param-name>adminEmail</param-name>
-      <param-value>admin@sistema.com</param-value>
-    </init-param>
-    <load-on-startup>2</load-on-startup>
+	  <description></description>
+	  <display-name>AutoInit1Servlet</display-name>
+	  <servlet-name>AutoInit1Servlet</servlet-name>
+	  <servlet-class>servlet.AutoInit1Servlet</servlet-class>
+	  <init-param>
+	  	<description></description>
+	  	<param-name>adminEmail</param-name>
+	  	<param-value>admin@sistema.com</param-value>
+	  </init-param>
   </servlet>
-  <servlet>
-  	<description></description>
-  	<display-name>AutoInit2Servlet</display-name>
-  	<servlet-name>AutoInit2Servlet</servlet-name>
-  	<servlet-class>servlet.AutoInit2Servlet</servlet-class>
-  	<load-on-startup>1</load-on-startup>
-  </servlet>
+  <servlet-mapping>
+	  <servlet-name>AutoInit1Servlet</servlet-name>
+	  <url-pattern>/AutoInit1Servlet</url-pattern>
+  </servlet-mapping>		
 </web-app>

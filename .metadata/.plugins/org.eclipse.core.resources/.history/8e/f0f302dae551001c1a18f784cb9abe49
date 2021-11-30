@@ -1,0 +1,18 @@
+package servlet;
+
+import javax.servlet.annotation.WebInitParam;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+/**
+ * Servlet implementation class AutoInit1Servlet
+ */
+@WebServlet(
+		urlPatterns = { "/AutoInit1Servlet" }, 
+		initParams = { 
+				@WebInitParam(name = "adminEmail", value = "admin@sistema.com")
+		})
+public class AutoInit1Servlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+}
