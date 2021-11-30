@@ -20,7 +20,7 @@
   <servlet>
   	<description></description>
     <servlet-name>HTMLServlet</servlet-name>
-    <servlet-class>servlet.HTMLServlet</servlet-class>
+    <servlet-class>servlet.MensagemServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>HTMLServlet</servlet-name>
