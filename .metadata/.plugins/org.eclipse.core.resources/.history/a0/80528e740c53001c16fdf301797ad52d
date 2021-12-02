@@ -1,0 +1,9 @@
+<H4>
+	<STRONG>COPYRIGHT</STRONG>
+</H4>
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
