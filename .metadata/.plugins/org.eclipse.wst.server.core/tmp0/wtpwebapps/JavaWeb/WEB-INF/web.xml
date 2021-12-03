@@ -11,7 +11,7 @@
   </welcome-file-list>
   <servlet>
     <servlet-name>Mensagem</servlet-name>
-    <servlet-class>servlet.MensagemServlet</servlet-class>
+    <servlet-class>servlet.examples.MensagemServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Mensagem</servlet-name>
@@ -20,7 +20,7 @@
   <servlet>
     <description></description>
     <servlet-name>HTMLServlet</servlet-name>
-    <servlet-class>servlet.HTMLServlet</servlet-class>
+    <servlet-class>servlet.examples.HTMLServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>HTMLServlet</servlet-name>
@@ -30,7 +30,7 @@
     <description></description>
     <display-name>AutoInit1Servlet</display-name>
     <servlet-name>AutoInit1Servlet</servlet-name>
-    <servlet-class>servlet.AutoInit1Servlet</servlet-class>
+    <servlet-class>servlet.init.AutoInit1Servlet</servlet-class>
     <init-param>
       <description></description>
       <param-name>adminEmail</param-name>
@@ -42,7 +42,15 @@
     <description></description>
     <display-name>AutoInit2Servlet</display-name>
     <servlet-name>AutoInit2Servlet</servlet-name>
-    <servlet-class>servlet.AutoInit2Servlet</servlet-class>
+    <servlet-class>servlet.init.AutoInit2Servlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
+  <servlet>
+    <servlet-name>Edit</servlet-name>
+    <servlet-class>servlet.crud.EditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Edit</servlet-name>
+    <url-pattern>/Edit</url-pattern>
+  </servlet-mapping>
 </web-app>

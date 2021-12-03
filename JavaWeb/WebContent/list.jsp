@@ -13,7 +13,7 @@
 	Map<String,String> bd = (Map<String,String>)request.getAttribute("bd");
 %>
 <CENTER><h1>Propriedades</h1></CENTER>
-<a href-"Edit">Criar nova propriedade</a>
+<a href="Edit">Criar nova propriedade</a>
 <br><br>
 <table border="1" width="100%">
 <tr>

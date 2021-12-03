@@ -1,4 +1,6 @@
 #
-#Thu Dec 02 23:04:44 BRT 2021
-Fernando=29
-Teste=001
+#Fri Dec 03 09:33:20 BRT 2021
+3=2
+Teste=2
+chave=2
+Teste=2
