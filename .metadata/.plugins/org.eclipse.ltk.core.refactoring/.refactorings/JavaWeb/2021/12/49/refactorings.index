@@ -1,2 +1,6 @@
 1638406943058	Move 'booter.jsp' to 'WebContent'
 1638407298585	Rename resource 'booter.jsp'
+1638464450574	Copy package
+1638464463282	Delete element
+1638464502476	Rename package 'servlet.model'
+1638495919680	Rename field 'props'
