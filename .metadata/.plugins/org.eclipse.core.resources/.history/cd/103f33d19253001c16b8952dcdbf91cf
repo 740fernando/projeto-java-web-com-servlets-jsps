@@ -1,0 +1,20 @@
+package model;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class Properties {
+	
+	private static final String FILE_NAME="C:/Users/fsouviei/OneDrive - everis/Documentos/P2B/cursoServlet/JavaWeb/props.txt";
+	private static java.util.Properties props;
+	
+	static{
+		props= new java.util.Properties();
+	try{
+		props.load(new FileInputStream(FILE_NAME));
+	catch(IOException e){
+		e.printStackTrace();
+			}
+		}
+	}
+}

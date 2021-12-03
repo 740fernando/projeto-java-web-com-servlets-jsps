@@ -1,0 +1,6 @@
+#
+#Fri Dec 03 09:33:20 BRT 2021
+3=2
+Teste=2
+chave=2
+Teste=2
