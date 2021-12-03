@@ -53,4 +53,20 @@ especificações, consideradas essenciais para o desenvolvimento web.</p>
 - IBM, IBM WebSphere Application Server, Java EE 6;
 - SAP, SAP NetWeaver Application Server ou SAP Web Application Server, Java EE 6 Web Profile;
 
+<h2>Empacotamento de Aplicações</h2>
+<p>Uma aplicação web pode ser empacotada
+em apenas um arquivo : <p>
+– Facilita a distribuição
+– Facilita a instalação
+<p>Este arquivo é um <strong>WAR</strong></p>
+–Web ARchive
 
+<h2>O que é um Servlet?</h2>
+<p>O nome “servlet” vem do inglês e dá uma ideia de servidor pequeno cujo objetivo basicamente é receber requisições HTTP, processá-las e responder ao cliente, essa resposta pode ser um HTML, uma imagem etc. Em Java, procuramos sempre trabalhar orientado a objeto, portanto essa nosso servlet será também um objeto de uma classe Java.</p>
+<p>O funcionamento é da seguinte forma : </p>
+- Cliente (navegador) faz uma requisição HTTP ao servidor.
+- O servlet responsável trata a requisição e responde ao cliente de acordo.
+- O cliente recebe os dados e exibe.
+
+<h2> O que é um JSP?</h2>
+<p>O JavaServer Pages (JSP) é uma tecnologia de programação do servidor que permite a criação de páginas e aplicativos dinâmicos da web.</p>
